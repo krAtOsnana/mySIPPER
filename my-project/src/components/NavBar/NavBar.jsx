@@ -1,6 +1,6 @@
 import React from 'react'
 import { IoMenuSharp } from "react-icons/io5";
-import { FaBottleWater } from "react-icons/fa6";
+import { FaHeadphones } from "react-icons/fa";
 import { UpdateFollower } from 'react-mouse-follower';
 import {motion} from "framer-motion"
  
@@ -48,7 +48,7 @@ const NavBar = () => {
 
     <div className='font-bold text-xl uppercase'>
         <a href="#">
-            hydration / <span className='font-extralight text-white-70'>Market</span>
+            listening / <span className='font-extralight text-white-70'>Market</span>
         </a>
     </div>
 
@@ -87,7 +87,7 @@ const NavBar = () => {
                       }}
                     >
             <button className='text-xl ps-14'>
-                            <FaBottleWater/>
+                            <FaHeadphones/>
                         </button>
              </UpdateFollower>
             
